@@ -28,7 +28,7 @@ if _BOTS_DIR not in sys.path:
 from cttt_env import Action, ChessTicTacToeEnv, PLAYER_O, PLAYER_X, BOARD_SIZE
 from socket_bot_base import BaseSocketBotClient
 
-SERVER_URL = os.environ.get("SERVER_URL", "https://chess-tic-tac-toe-production.up.railway.app")
+SERVER_URL = os.environ.get("SERVER_URL", "http://localhost:3000")
 MCTS_ITERATIONS = int(os.environ.get("MCTS_ITERATIONS", "1000"))  # Number of MCTS simulations
 MCTS_TIME_LIMIT = float(os.environ.get("MCTS_TIME_LIMIT", "2.0"))  # Max seconds per move
 

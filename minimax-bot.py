@@ -21,7 +21,7 @@ from cttt_env import Action, ChessTicTacToeEnv, PLAYER_O, PLAYER_X, BOARD_SIZE
 from socket_bot_base import BaseSocketBotClient
 
 
-SERVER_URL = os.environ.get("SERVER_URL", "https://chess-tic-tac-toe-production.up.railway.app")
+SERVER_URL = os.environ.get("SERVER_URL", "http://localhost:3000")
 MINIMAX_MAX_DEPTH = int(os.environ.get("MINIMAX_MAX_DEPTH", "3"))
 
 
