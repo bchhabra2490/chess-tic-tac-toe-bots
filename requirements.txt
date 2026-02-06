@@ -1,0 +1,10 @@
+# LLM bot and DQN client
+python-socketio[client]>=5.0.0
+requests>=2.28.0
+openai>=1.0.0
+numpy
+torch
+
+
+
+
