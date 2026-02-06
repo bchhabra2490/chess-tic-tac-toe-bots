@@ -25,7 +25,7 @@ _BOTS_DIR = os.path.dirname(os.path.abspath(__file__))
 if _BOTS_DIR not in sys.path:
     sys.path.insert(0, _BOTS_DIR)
 
-from rl.cttt_env import Action, ChessTicTacToeEnv, PLAYER_O, PLAYER_X, BOARD_SIZE
+from cttt_env import Action, ChessTicTacToeEnv, PLAYER_O, PLAYER_X, BOARD_SIZE
 from socket_bot_base import BaseSocketBotClient
 
 SERVER_URL = os.environ.get("SERVER_URL", "https://chess-tic-tac-toe-production.up.railway.app")

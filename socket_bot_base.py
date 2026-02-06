@@ -11,7 +11,7 @@ from typing import Any, Dict, Optional
 
 import socketio
 
-from rl.cttt_env import Action, ChessTicTacToeEnv, PLAYER_O, PLAYER_X
+from cttt_env import Action, ChessTicTacToeEnv, PLAYER_O, PLAYER_X
 
 
 class BaseSocketBotClient:
